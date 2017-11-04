@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace com.genteure.cqp.whatanime
 {
-    public class Class1
+    public static class Main
     {
+        internal const string APP_ID = "com.genteure.cqp.bangumi";
     }
 }
