@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using RGiesecke.DllExport;
+using System.Runtime.InteropServices;
 
 namespace com.genteure.cqp.whatanime
 {
@@ -11,7 +12,6 @@ namespace com.genteure.cqp.whatanime
 
             [DllExport("Initialize", CallingConvention.StdCall)]
             public static int Initialize(int i) { ac = i; return 0; }
-
 
             [DllImport("CQP.DLL")]
             public static extern int CQ_sendPrivateMsg(int AuthCode, long QQID, string Message);

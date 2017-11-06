@@ -31,17 +31,16 @@
   </PropertyGroup>
   <PropertyGroup>
     <DllExportIdent>22B28229-A2A1-493F-A3B6-75940EBDBCF5</DllExportIdent>
-    <DllExportNamespace>System.Runtime.InteropServices</DllExportNamespace>
+    <DllExportNamespace>RGiesecke.DllExport</DllExportNamespace>
     <DllExportDDNSCecil>true</DllExportDDNSCecil>
-    <DllExportSkipOnAnyCpu>false</DllExportSkipOnAnyCpu>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DllExportOrdinalsBase>1</DllExportOrdinalsBase>
     <DllExportGenExpLib>false</DllExportGenExpLib>
     <DllExportOurILAsm>false</DllExportOurILAsm>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DllExport, Version=1.6.0.40687, Culture=neutral, PublicKeyToken=8337224c9ad9e356">
-      <HintPath>..\packages\DllExport.1.6.0-beta2\gcache\metalib\System.Runtime.InteropServices\DllExport.dll</HintPath>
+      <HintPath>..\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -58,14 +57,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config.cs" />
     <Compile Include="Cooldown.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="CoolQApi.cs" />
     <Compile Include="CoolQApi.NativeMethods.cs" />
     <Compile Include="ImageProcessor.cs" />
-    <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sqlite-net\SQLite.cs" />
-    <Compile Include="sqlite-net\SQLiteAsync.cs" />
+    <Compile Include="WhatAnimeAPI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="com.genteure.cqp.whatanime.json">

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
@@ -33,7 +32,9 @@ namespace com.genteure.cqp.whatanime
 
             var response = (HttpWebResponse)(await request.GetResponseAsync());
             MemoryStream result = new MemoryStream();
-            new Bitmap(response.GetResponseStream()).Save(result, GetEncoderInfo("image/jpeg"), new EncoderParameters()
+            var image = Image.FromStream(response.GetResponseStream());
+            if (image.Width < 300 || image.Height < 200) throw new ApplicationException("图片太小！");
+            image.Save(result, GetEncoderInfo("image/jpeg"), new EncoderParameters()
             {
                 Param = new EncoderParameter[] { new EncoderParameter(Encoder.Quality, 50L) }
             });
@@ -57,11 +58,9 @@ namespace com.genteure.cqp.whatanime
 
             var response = (HttpWebResponse)(await request.GetResponseAsync());
             string filename = ((int)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds).ToString("X") + "-" + url.GetHashCode().ToString("X") + ".jpg";
-            // TODO: 图片文件拓展名
+            Image.FromStream(response.GetResponseStream()).Save(Path.Combine(dir, filename), ImageFormat.Jpeg);
             return CoolQApi.CQC_Image("whatanime\\" + filename);
-
         }
-
 
         private static ImageCodecInfo GetEncoderInfo(String mimeType)
             => ImageCodecInfo.GetImageEncoders().ToList().First(x => x.MimeType == mimeType);

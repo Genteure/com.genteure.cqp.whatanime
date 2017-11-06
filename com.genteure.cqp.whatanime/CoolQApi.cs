@@ -299,7 +299,7 @@ namespace com.genteure.cqp.whatanime
         /// <summary>
         /// 事件
         /// </summary>
-        internal enum Event : Int32
+        public enum Event : Int32
         {
             /// <summary>
             /// 忽略
