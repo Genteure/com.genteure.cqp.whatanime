@@ -41,11 +41,12 @@ namespace com.genteure.cqp.whatanime
         /// <returns></returns>
         internal static async Task<JObject> SearchAsync(string image, string filter = "")
         {
+            JObject result = null;
             try
             {
                 if (!Cooldown.CanSearch)
                     throw new ApplicationException($"全局冷却中: 剩余 {Cooldown.RemainingSeconds} 秒");
-                var result = JObject.Parse(await RequestStringAsync($"/api/search?token={ApiToken}", $"image={image}" + (filter == "" ? "" : "&filter=" + filter)));
+                result = JObject.Parse(await RequestStringAsync($"/api/search?token={ApiToken}", $"image={image}" + (filter == "" ? "" : "&filter=" + filter)));
                 Cooldown.SetCooldown(result["quota"].ToObject<int>(), result["expire"].ToObject<int>());
                 return result;
             }
@@ -57,6 +58,7 @@ namespace com.genteure.cqp.whatanime
                         Cooldown.TriggeredHTTP429();
                         break;
                 }
+                CoolQApi.AddLog(CoolQApi.LogLevel.Debug, "ErrorDebug", "Search Result: " + result?.ToString(Newtonsoft.Json.Formatting.None) ?? "[NULL]");
                 throw;
             }
 
