@@ -1,0 +1,854 @@
+﻿1>------ Build started: Project: com.genteure.cqp.whatanime, Configuration: Debug Any CPU ------
+1>Build started 2017/11/30 1:16:47.
+1>Building with tools version "15.0".
+1>Target "EntityDeploy" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "EntityDeploy" depends on it):
+1>Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Message"
+1>  Configuration=Debug
+1>Done executing task "Message".
+1>Task "Message"
+1>  Platform=AnyCPU
+1>Done executing task "Message".
+1>Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+1>Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+1>Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "BeforeBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Build" depends on it):
+1>Done building target "BeforeBuild" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "BuildOnlySettings" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "BuildOnlySettings" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GetFrameworkPaths" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareForBuild" depends on it):
+1>Done building target "GetFrameworkPaths" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+1>Target "GetReferenceAssemblyPaths" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareForBuild" depends on it):
+1>Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "GetReferenceAssemblyPaths"
+1>Done executing task "GetReferenceAssemblyPaths".
+1>Done building target "GetReferenceAssemblyPaths" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+1>Target "DllExportRestorePkg" in project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareForBuild" depends on it):
+1>Task "Warning" skipped, due to false condition; (!Exists('$(SolutionDir)DllExport.bat')) was evaluated as (!Exists('E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\DllExport.bat')).
+1>Task "Exec" skipped, due to false condition; (('$(DllExportModImported)' != 'true' Or !Exists('..\packages\DllExport.1.6.0-beta2\tools\net.r_eg.DllExport.targets')) And Exists('$(SolutionDir)DllExport.bat')) was evaluated as (('true' != 'true' Or !Exists('..\packages\DllExport.1.6.0-beta2\tools\net.r_eg.DllExport.targets')) And Exists('E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\DllExport.bat')).
+1>Done building target "DllExportRestorePkg" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PrepareForBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "FindAppConfigFile"
+1>Done executing task "FindAppConfigFile".
+1>Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "MakeDir"
+1>Done executing task "MakeDir".
+1>Done building target "PrepareForBuild" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "BeforeResolveReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignProjectConfiguration"
+1>Done executing task "AssignProjectConfiguration".
+1>Done building target "AssignProjectConfiguration" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AssignProjectConfiguration" skipped. Previously built successfully.
+1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareProjectReferences" depends on it):
+1>Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+1>Done building target "_SplitProjectReferencesByFileExistence" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareProjectReferences" depends on it):
+1>Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "MSBuild"
+1>Done executing task "MSBuild".
+1>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PrepareProjectReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveProjectReferences" depends on it):
+1>Done building target "PrepareProjectReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveProjectReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+1>Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+1>Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+1>Done building target "ResolveProjectReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+1>Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GetInstalledSDKLocations" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveSDKReferences" depends on it):
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+1>Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+1>Done building target "GetInstalledSDKLocations" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ResolveSDKReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveSDKReferences" skipped. Previously built successfully.
+1>Target "ExpandSDKReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+1>Done building target "ExpandSDKReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+1>Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+1>Target "ImplicitlyExpandNETStandardFacades" skipped, due to false condition; ('$(ImplicitlyExpandNETStandardFacades)' == 'true') was evaluated as ('' == 'true').
+1>Target "_HandlePackageFileConflicts" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveAssemblyReferences" depends on it):
+1>Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll".
+1>Task "ResolvePackageFileConflicts"
+1>Done executing task "ResolvePackageFileConflicts".
+1>Done building target "_HandlePackageFileConflicts" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveAssemblyReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ResolveAssemblyReference"
+1>  TargetFrameworkMoniker:
+1>      .NETFramework,Version=v4.5.2
+1>  TargetFrameworkMonikerDisplayName:
+1>      .NET Framework 4.5.2
+1>  TargetedRuntimeVersion:
+1>      v4.0.30319
+1>  Assemblies:
+1>      DllExport, Version=1.6.0.40687, Culture=neutral, PublicKeyToken=8337224c9ad9e356
+1>          Private = 'False'
+1>          HintPath = '..\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll'
+1>      Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+1>          HintPath = '..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll'
+1>      System
+1>      System.Drawing
+1>      System.Xml.Linq
+1>      System.Data.DataSetExtensions
+1>      Microsoft.CSharp
+1>      System.Data
+1>      System.Net.Http
+1>      System.Xml
+1>      System.Core
+1>  AssemblyFiles:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+1>  CandidateAssemblyFiles:
+1>  TargetFrameworkDirectories:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\
+1>  InstalledAssemblyTables:
+1>  IgnoreInstalledAssemblyTable:
+1>      False
+1>  SearchPaths:
+1>      {CandidateAssemblyFiles}
+1>      {HintPathFromItem}
+1>      {TargetFrameworkDirectory}
+1>      {AssemblyFoldersFromConfig:C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\AssemblyFolders.config,v4.5.2}
+1>      {Registry:Software\Microsoft\.NETFramework,v4.5.2,AssemblyFoldersEx}
+1>      {AssemblyFolders}
+1>      {GAC}
+1>      {RawFileName}
+1>      bin\Debug\
+1>  AllowedAssemblyExtensions:
+1>      .winmd
+1>      .dll
+1>      .exe
+1>  AllowedRelatedFileExtensions:
+1>      .pdb
+1>      .xml
+1>      .pri
+1>      .dll.config
+1>      .exe.config
+1>  AppConfigFile:
+1>      
+1>  AutoUnify:
+1>      True
+1>  CopyLocalDependenciesWhenParentReferenceInGac:
+1>      True
+1>  FindDependencies:
+1>      True
+1>  TargetProcessorArchitecture:
+1>      x86
+1>  StateFile:
+1>      obj\Debug\com.genteure.cqp.whatanime.csprojResolveAssemblyReference.cache
+1>  InstalledAssemblySubsetTables:
+1>  IgnoreInstalledAssemblySubsetTable:
+1>      False
+1>  TargetFrameworkSubsets:
+1>  FullTargetFrameworkSubsetNames:
+1>      Full
+1>  ProfileName:
+1>      
+1>  FullFrameworkFolders:
+1>      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\
+1>  LatestTargetFrameworkDirectories:
+1>  ProfileTablesLocation:
+1>  Unified primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Using this version instead of original version "2.0.0.0" in "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll" because there is a more recent version of this framework file.
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll".
+1>      Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "DllExport, Version=1.6.0.40687, Culture=neutral, PublicKeyToken=8337224c9ad9e356".
+1>      Resolved file path is "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      This reference is not "CopyLocal" because at least one source item had "Private" set to "false" and no source items had "Private" set to "true".
+1>      The ImageRuntimeVersion for this reference is "v2.0.50727".
+1>  Primary reference "Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed".
+1>      Resolved file path is "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll".
+1>      Reference found at search path location "{HintPathFromItem}".
+1>      Found related file "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.xml".
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.winmd", but it didn't exist.
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Dependency "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Numerics.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45".
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Numerics.winmd", but it didn't exist.
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Numerics.dll", but it didn't exist.
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Numerics.exe", but it didn't exist.
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Numerics.winmd", but it didn't exist.
+1>      Required by "Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>  Dependency "System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+1>      Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Runtime.Serialization.dll".
+1>      Reference found at search path location "{TargetFrameworkDirectory}".
+1>          For SearchPath "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45".
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Runtime.Serialization.winmd", but it didn't exist.
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Runtime.Serialization.dll", but it didn't exist.
+1>          Considered "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\System.Runtime.Serialization.exe", but it didn't exist.
+1>          For SearchPath "{TargetFrameworkDirectory}".
+1>          Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Runtime.Serialization.winmd", but it didn't exist.
+1>      Required by "Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL".
+1>      This reference is not "CopyLocal" because it's a prerequisite file.
+1>      The ImageRuntimeVersion for this reference is "v4.0.30319".
+1>Done executing task "ResolveAssemblyReference".
+1>Done building target "ResolveAssemblyReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+1>Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and '' == 'true' and Exists('obj\Debug\com.genteure.cqp.whatanime.csproj.com.genteure.cqp.whatanime.dll.config')).
+1>Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+1>Target "AfterResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Done building target "AfterResolveReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "ImplicitlyExpandDesignTimeFacades" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResolveReferences" depends on it):
+1>Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{HintPathFromItem}' == 'ImplicitlyExpandDesignTimeFacades').
+1>Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('{TargetFrameworkDirectory}' == 'ImplicitlyExpandDesignTimeFacades').
+1>Task "Message" skipped, due to false condition; ('%(ReferencePath.ResolvedFrom)' == 'ImplicitlyExpandDesignTimeFacades') was evaluated as ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll' == 'ImplicitlyExpandDesignTimeFacades').
+1>Done building target "ImplicitlyExpandDesignTimeFacades" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+1>Target "ResolveReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "ResolveReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveAdditionalReferenceCopyLocalPathsForIIS" skipped, due to false condition; ('$(BuildForIIS)' == 'true') was evaluated as ('' == 'true').
+1>Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('obj\project.assets.json')).
+1>Target "ValidationExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Done building target "ValidationExtension" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ExpressionBuildExtension" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Task "WorkflowBuildMessageTask" skipped, due to false condition; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false') was evaluated as (''!='' and ''!='true' and ''!='false').
+1>Done building target "ExpressionBuildExtension" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "XamlMarkupCompilePass1" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileReadGeneratedFileList" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompilePass2" skipped, due to false condition; ('$(XamlRequiresCompilationPass2)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "XamlMarkupCompileReadPass2Flag" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "XamlMarkupCompileAddExtensionFilesGenerated" skipped, due to false condition; ('@(XamlPage)' != '' or '@(XamlAppDef)' != '') was evaluated as ('' != '' or '' != '').
+1>Target "AddDeferredValidationErrorsFileToFileWrites" skipped, due to false condition; (Exists('$(DeferredValidationErrorsFileName)')) was evaluated as (Exists('obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')).
+1>Target "ReportValidationBuildExtensionErrors" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+1>Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' or '' != '' ).
+1>Target "AfterMarkupCompilePass1" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Done building target "AfterMarkupCompilePass1" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+1>Target "FileClassification" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != '') was evaluated as ('' != '' or '' != '' or '' != '').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+1>Done building target "FileClassification" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)' != '') was evaluated as ('' != '').
+1>Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "AssignTargetPaths" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResourceNames" depends on it):
+1>Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.json'=='.manifest').
+1>Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+1>Done building target "AssignTargetPaths" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResourceNames" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+1>Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+1>Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "AssignCulture"
+1>Done executing task "AssignCulture".
+1>Done building target "SplitResourcesByCulture" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+1>Target "CreateCustomManifestResourceNames" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResourceNames" depends on it):
+1>Done building target "CreateCustomManifestResourceNames" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PrepareResourceNames" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Done building target "PrepareResourceNames" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "SplitResourcesByCulture" skipped. Previously built successfully.
+1>Target "BeforeResGen" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResGen" depends on it):
+1>Done building target "BeforeResGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "FindReferenceAssembliesForReferences" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreResGen" depends on it):
+1>Done building target "FindReferenceAssembliesForReferences" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CoreResGen" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResGen" depends on it):
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' != 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' != 'CLR2').
+1>Task "GenerateResource" skipped, due to false condition; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2') was evaluated as ('' == 'Resx' and '' != 'false' and 'CurrentRuntime' == 'CLR2').
+1>Done building target "CoreResGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AfterResGen" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "ResGen" depends on it):
+1>Done building target "AfterResGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResGen" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareResources" depends on it):
+1>Done building target "ResGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+1>Target "PrepareResources" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "PrepareResources" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+1>Target "ResolveReferences" skipped. Previously built successfully.
+1>Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+1>Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+1>Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+1>Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+1>Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "SetWin32ManifestProperties" depends on it):
+1>Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "GetFrameworkPath"
+1>Done executing task "GetFrameworkPath".
+1>Done building target "_SetEmbeddedWin32ManifestProperties" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "SetWin32ManifestProperties" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Done building target "SetWin32ManifestProperties" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "FindReferenceAssembliesForReferences" skipped. Previously built successfully.
+1>Target "_GenerateCompileInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Done building target "_GenerateCompileInputs" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PrepareForBuild" skipped. Previously built successfully.
+1>Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+1>Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.CSharp.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+1>Done building target "_SetTargetFrameworkMonikerAttribute" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "BeforeCompile" depends on it):
+1>Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+1>Input files: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.targets
+1>Output files: C:\Users\宅急送队长\AppData\Local\Temp\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs
+1>Done building target "GenerateTargetFrameworkMonikerAttribute" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GenerateAdditionalSources" skipped, due to false condition; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true') was evaluated as ('' != '' and '' == 'true').
+1>Target "BeforeCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Done building target "BeforeCompile" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+1>Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+1>Target "_GenerateCompileDependencyCache" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Using "Hash" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Hash"
+1>Done executing task "Hash".
+1>Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "WriteLinesToFile"
+1>  MSB3493: 
+1>Done executing task "WriteLinesToFile".
+1>Done building target "_GenerateCompileDependencyCache" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GenerateCompiledExpressionsTempFile" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreCompile" depends on it):
+1>Task "WriteLinesToFile" skipped, due to false condition; (!Exists('$(GenerateCompiledExpressionsTempFilePathForEditing)')) was evaluated as (!Exists('obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs')).
+1>Task "WriteLinesToFile" skipped, due to false condition; (!Exists('$(GenerateCompiledExpressionsTempFilePathForValidation)')) was evaluated as (!Exists('obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs')).
+1>Task "WriteLinesToFile" skipped, due to false condition; (!Exists('$(GenerateCompiledExpressionsTempFilePathForTypeInfer)')) was evaluated as (!Exists('obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs')).
+1>Done building target "GenerateCompiledExpressionsTempFile" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "DesignTimeXamlMarkupCompilation" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreCompile" depends on it):
+1>Task "MakeDir" skipped, due to false condition; ('@(XamlAppDef)' != '') was evaluated as ('' != '').
+1>Task "CallTarget" skipped, due to false condition; ('$(BuildingProject)' != 'true' and '@(XamlAppDef)' != '') was evaluated as ('true' != 'true' and '' != '').
+1>Done building target "DesignTimeXamlMarkupCompilation" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CleanInProcessXamlGeneratedFiles" skipped, due to false condition; ('@(XamlAppDef)' != '' And '$(BuildingInsideVisualStudio)'!='true') was evaluated as ('' != '' And 'true'!='true').
+1>Target "DesignTimeMarkupCompilation" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreCompile" depends on it):
+1>Task "CallTarget" skipped, due to false condition; ('$(BuildingProject)' != 'true') was evaluated as ('true' != 'true').
+1>Done building target "DesignTimeMarkupCompilation" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_ComputeNonExistentFileProperty" skipped, due to false condition; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))) was evaluated as (('true' == 'true') and ('true' != 'true') and (('true' == 'false') or ('true' == 'true'))).
+1>Target "ResolveCodeAnalysisRuleSet" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.CSharp.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreCompile" depends on it):
+1>Using "ResolveCodeAnalysisRuleSet" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ResolveCodeAnalysisRuleSet"
+1>Done executing task "ResolveCodeAnalysisRuleSet".
+1>Done building target "ResolveCodeAnalysisRuleSet" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ShimReferencePathsWhenCommonTargetsDoesNotUnderstandReferenceAssemblies" skipped, due to false condition; ('@(ReferencePathWithRefAssemblies)' == '') was evaluated as ('E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll' == '').
+1>Target "PreXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreCompile" depends on it):
+1>Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "CallTarget"
+1>Target "CleanXsdCodeGen" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PreXsdCodeGen" depends on it):
+1>Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Delete"
+1>Done executing task "Delete".
+1>Done building target "CleanXsdCodeGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Done executing task "CallTarget".
+1>Done building target "PreXsdCodeGen" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "XsdCodeGen" skipped, due to false condition; ( '$(XsdCodeGenPreCondition)' == 'True' ) was evaluated as ( 'False' == 'True' ).
+1>Target "CoreCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Roslyn\Microsoft.CSharp.Core.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Building target "CoreCompile" completely.
+1>Input file "obj\Debug\com.genteure.cqp.whatanime.csproj.CoreCompileInputs.cache" is newer than output file "obj\Debug\com.genteure.cqp.whatanime.dll".
+1>Using "Csc" task from assembly "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll".
+1>Task "Csc"
+1>  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702,2008 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /errorendlocation /preferreduilang:en-US /highentropyva+ /reference:E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\gcache\metalib\RGiesecke.DllExport\DllExport.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /reference:E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\com.genteure.cqp.whatanime.dll /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /target:library /utf8output Config.cs Cooldown.cs CoolQApi.cs CoolQApi.NativeMethods.cs ImageProcessor.cs Main.cs Properties\AssemblyInfo.cs WhatAnimeAPI.cs "C:\Users\宅急送队长\AppData\Local\Temp\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs" obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+1>  Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Roslyn
+1>  Microsoft (R) Visual C# Compiler version 2.4.0.62225 (f0cdbe92)
+1>  Copyright (C) Microsoft Corporation. All rights reserved.
+1>Done executing task "Csc".
+1>Task "CallTarget" skipped, due to false condition; ('$(TargetsTriggeredByCompilation)' != '') was evaluated as ('' != '').
+1>Done building target "CoreCompile" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'Library'=='library')).
+1>Target "AfterCompile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Done building target "AfterCompile" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+1>Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+1>Target "AfterCompileWinFX" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "_AfterCompileWinFXInternal" depends on it):
+1>Done building target "AfterCompileWinFX" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_AfterCompileWinFXInternal" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Compile" depends on it):
+1>Done building target "_AfterCompileWinFXInternal" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "Compile" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "Compile" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "DeferredValidation" skipped, due to false condition; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')) was evaluated as ('' != 'true' and ('' != '' or '' != '')).
+1>Target "ExportWindowsMDFile" skipped, due to false condition; ('$(ExportWinMDFile)' == 'true') was evaluated as ('' == 'true').
+1>Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+1>                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+1>                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'Library' != 'library') or
+1>                    ('' == '')) and
+1>                   Exists('obj\com.genteure.cqp.whatanime.csproj.UnmanagedRegistration.cache')).
+1>Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CreateSatelliteAssemblies" depends on it):
+1>Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+1>Done building target "_GenerateSatelliteAssemblyInputs" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+1>Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '' and '$(MSBuildRuntimeType)' != 'Core') was evaluated as ('' != '' and 'Full' != 'Core').
+1>Target "CreateSatelliteAssemblies" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "CreateSatelliteAssemblies" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true') was evaluated as (''=='true' or ''!='' or ''!='' or '' == 'true').
+1>Target "GetTargetPathWithTargetPlatformMoniker" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "GetTargetPath" depends on it):
+1>Done building target "GetTargetPathWithTargetPlatformMoniker" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GetTargetPath" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "GetTargetPath" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(EmbeddedResource->'%(WithCulture)') != '') was evaluated as ( != '').
+1>Target "_CopyFilesMarkedCopyLocal" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Using "Copy" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Copy"
+1>  Did not copy from file "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll" to file "bin\Debug\Newtonsoft.Json.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+1>  Did not copy from file "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.xml" to file "bin\Debug\Newtonsoft.Json.xml" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+1>Done executing task "Copy".
+1>Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "Touch"
+1>  Touching "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.csproj.CopyComplete".
+1>Done executing task "Touch".
+1>Done building target "_CopyFilesMarkedCopyLocal" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AssignTargetPaths" skipped. Previously built successfully.
+1>Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+1>Target "_GetProjectReferenceTargetFrameworkProperties" skipped. Previously built successfully.
+1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+1>Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+1>Task "AssignTargetPath"
+1>Done executing task "AssignTargetPath".
+1>Done building target "GetCopyToOutputDirectoryItems" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+1>Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+1>Task "Copy"
+1>  Copying file from "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.json" to "bin\Debug\com.genteure.cqp.whatanime.json".
+1>Done executing task "Copy".
+1>Done building target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Done building target "_CopySourceItemsToOutputDirectory" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+1>Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+1>Target "_CheckForCompileOutputs" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CopyFilesToOutputDirectory" depends on it):
+1>Done building target "_CheckForCompileOutputs" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "CopyFilesToOutputDirectory" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PrepareForRun" depends on it):
+1>Task "Copy"
+1>  Copying file from "obj\Debug\com.genteure.cqp.whatanime.dll" to "bin\Debug\com.genteure.cqp.whatanime.dll".
+1>Done executing task "Copy".
+1>Task "CopyRefAssembly" skipped, due to false condition; ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('false' == 'true' and 'true' == 'true' and '' != 'true').
+1>Task "Message"
+1>  com.genteure.cqp.whatanime -> E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll
+1>Done executing task "Message".
+1>Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+1>Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+1>Task "Copy"
+1>  Copying file from "obj\Debug\com.genteure.cqp.whatanime.pdb" to "bin\Debug\com.genteure.cqp.whatanime.pdb".
+1>Done executing task "Copy".
+1>Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+1>Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+1>Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+1>Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+1>Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+1>Done building target "CopyFilesToOutputDirectory" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as (''=='true').
+1>Target "PrepareForRun" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Done building target "PrepareForRun" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'Library'=='library').
+1>Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+1>Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+1>Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "IncrementalClean" depends on it):
+1>Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ReadLinesFromFile"
+1>Done executing task "ReadLinesFromFile".
+1>Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "ConvertToAbsolutePath"
+1>Done executing task "ConvertToAbsolutePath".
+1>Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "FindUnderPath"
+1>  Comparison path is "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "bin\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "obj\Debug\".
+1>Done executing task "FindUnderPath".
+1>Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+1>Task "RemoveDuplicates"
+1>Done executing task "RemoveDuplicates".
+1>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "IncrementalClean" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "CoreBuild" depends on it):
+1>Task "FindUnderPath"
+1>  Comparison path is "bin\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "FindUnderPath"
+1>  Comparison path is "obj\Debug\".
+1>Done executing task "FindUnderPath".
+1>Task "Delete"
+1>Done executing task "Delete".
+1>Task "RemoveDuplicates"
+1>Done executing task "RemoveDuplicates".
+1>Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.json;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.pdb;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\Newtonsoft.Json.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\Newtonsoft.Json.xml;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.csproj.CoreCompileInputs.cache;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.pdb'!='E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.json;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.pdb;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\Newtonsoft.Json.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\Newtonsoft.Json.xml;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.csproj.CoreCompileInputs.cache;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.dll;E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\obj\Debug\com.genteure.cqp.whatanime.pdb').
+1>Done building target "IncrementalClean" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')) was evaluated as ('' != '' and ('' != 'OnOutputUpdated' or '' != '')).
+1>Target "GetFrameworkPaths" skipped. Previously built successfully.
+1>Target "DllExportMod" in file "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\tools\net.r_eg.DllExport.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "PostBuildEvent" depends on it):
+1>Using "DllExportAppDomainIsolatedTask" task from assembly "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\packages\DllExport.1.6.0-beta2\tools\RGiesecke.DllExport.MSBuild.dll".
+1>Task "DllExportAppDomainIsolatedTask"
+1>  Cannot find lib.exe in 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\bin'.
+1>  calling 'C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\ildasm.exe' with /quoteallnames /unicode /nobar /linenum "/out:C:\Users\宅急送队长\AppData\Local\Temp\tmpE976\com.genteure.cqp.whatanime.il" "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll"
+1>  ildasm 'C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\ildasm.exe' returned gracefully.
+1>  Found method: com.genteure.cqp.whatanime.CoolQApi/NativeMethods..method public hidebysig static string 'AppInfo'() cil managed
+1>  Removing System.Runtime.InteropServices.DllExportAttribute from com.genteure.cqp.whatanime.CoolQApi/NativeMethods.AppInfo
+1>  	old declaration: .method public hidebysig static string 'AppInfo'() cil managed
+1>  	new declaration: .method public hidebysig static string modopt(['mscorlib']'System.Runtime.CompilerServices.CallConvCdecl')  'AppInfo'()
+1>  	exporting as AppInfo and index 1
+1>  Found method: com.genteure.cqp.whatanime.CoolQApi/NativeMethods..method public hidebysig static int32 'Initialize'(int32 'i') cil managed
+1>  Removing System.Runtime.InteropServices.DllExportAttribute from com.genteure.cqp.whatanime.CoolQApi/NativeMethods.Initialize
+1>  	old declaration: .method public hidebysig static int32 'Initialize'(int32 'i') cil managed
+1>  	new declaration: .method public hidebysig static int32 modopt(['mscorlib']'System.Runtime.CompilerServices.CallConvStdcall')  'Initialize'(int32 'i')
+1>  	exporting as Initialize and index 2
+1>  Parsing 6005 lines of IL took 53 ms.
+1>  calling 'C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ilasm.exe' with /nologo "/out:E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll" "C:\Users\宅急送队长\AppData\Local\Temp\tmpE976\com.genteure.cqp.whatanime.il" /DLL  "/resource=C:\Users\宅急送队长\AppData\Local\Temp\tmpE976\com.genteure.cqp.whatanime.res"  /debug   
+1>  ilasm 'C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ilasm.exe' returned gracefully.
+1>  
+1>  Assembling 'C:\Users\宅急送队长\AppData\Local\Temp\tmpE976\com.genteure.cqp.whatanime.il'  to DLL --> 'E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\bin\Debug\com.genteure.cqp.whatanime.dll'
+1>  Source file is UNICODE
+1>  
+1>  Assembled method com.genteure.cqp.whatanime.Config::Load
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_ApiHost
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_ApiToken
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_MasterQQ
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_MainCommand
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_HelpMessage
+1>  Assembled method com.genteure.cqp.whatanime.Config::get_CDSeconds
+1>  Assembled method com.genteure.cqp.whatanime.Config::.cctor
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::get_RemainingQuota
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::get_CanSearch
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::get_RemainingSeconds
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::SetCooldown
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::TriggeredHTTP429
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::Check
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::Set
+1>  Assembled method com.genteure.cqp.whatanime.Cooldown::.cctor
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetAll
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::Len
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetBin
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetByte
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetInt
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetLong
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetShort
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetLenStr
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?Unpack::GetToken
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Age
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Age
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Area
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Area
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Authority
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Authority
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_CanModifyInGroupName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_CanModifyInGroupName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Gender
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Gender
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_InGroupName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_InGroupName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Title
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Title
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_GroupId
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_GroupId
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_HasBadRecord
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_HasBadRecord
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_TitleExpirationTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_TitleExpirationTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_JoinTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_JoinTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_LastSpeakingTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_LastSpeakingTime
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Level
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Level
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_NickName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_NickName
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::get_Number
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::set_Number
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?GroupMemberInfo::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?NativeMethods::AppInfo
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi?NativeMethods::Initialize
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::Encode
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::Decode
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_At
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Emoji
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Face
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_BFace
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Shake
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Record
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_RPS
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Dice
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Share
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Contact
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Anonymous
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Image
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Music
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_MusicCustom
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::CQC_Location
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SendPrivateMsg
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SendGroupMsg
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SendDiscussMsg
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SendLike
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupKick
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupBan
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupAdmin
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupWholeBan
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupAnonymousBan
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupAnonymous
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupCard
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupLeave
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupSpecialTitle
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetDiscussLeave
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetFriendAddRequest
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetGroupAddRequestV2
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetGroupMemberInfoV2
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetStrangerInfo
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::AddLog
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetCookies
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetCsrfToken
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetLoginQQ
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetLoginNick
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetAppDirectory
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::SetFatal
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::GetRecord
+1>  Assembled method com.genteure.cqp.whatanime.CoolQApi::ConvertAnsiHexToGroupMemberInfo
+1>  Assembled method com.genteure.cqp.whatanime.DataConvertExtensions::ToLong
+1>  Assembled method com.genteure.cqp.whatanime.DataConvertExtensions::ToInt
+1>  Assembled method com.genteure.cqp.whatanime.DataConvertExtensions::ToShort
+1>  Assembled method com.genteure.cqp.whatanime.DataConvertExtensions::SubArray
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<CQIMG2Base64Async>d__3::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<CQIMG2Base64Async>d__3::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<CQIMG2Base64Async>d__3::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<WebImage2CQIMGAsync>d__4::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<WebImage2CQIMGAsync>d__4::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<WebImage2CQIMGAsync>d__4::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<>c__DisplayClass5_0::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor?<>c__DisplayClass5_0::<GetEncoderInfo>b__0
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor::CQIMG2Base64Async
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor::WebImage2CQIMGAsync
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor::GetEncoderInfo
+1>  Assembled method com.genteure.cqp.whatanime.ImageProcessor::.cctor
+1>  Assembled method com.genteure.cqp.whatanime.Main?<_ProcessGroupMessageAsync>d__3::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.Main?<_ProcessGroupMessageAsync>d__3::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.Main?<_ProcessGroupMessageAsync>d__3::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.Main::Startup
+1>  Assembled method com.genteure.cqp.whatanime.Main::ProcessGroupMessageAsync
+1>  Assembled method com.genteure.cqp.whatanime.Main::_ProcessGroupMessageAsync
+1>  Assembled method com.genteure.cqp.whatanime.Main::.cctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<MeAsync>d__6::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<MeAsync>d__6::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<MeAsync>d__6::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ListAsync>d__7::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ListAsync>d__7::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ListAsync>d__7::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<SearchAsync>d__8::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<SearchAsync>d__8::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<SearchAsync>d__8::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__9::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__9::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__9::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__10::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__10::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<ThumbnailAsync>d__10::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<RequestStringAsync>d__13::.ctor
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<RequestStringAsync>d__13::MoveNext
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI?<RequestStringAsync>d__13::SetStateMachine
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::get_ApiHost
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::get_ApiToken
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::MeAsync
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::ListAsync
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::SearchAsync
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::ThumbnailAsync
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::ThumbnailAsync
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::Preview
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::encodeURIComponent
+1>  Assembled method com.genteure.cqp.whatanime.WhatAnimeAPI::RequestStringAsync
+1>  Creating PE file
+1>  
+1>  Emitting classes:
+1>  Class 1:	com.genteure.cqp.whatanime.Config
+1>  Class 2:	com.genteure.cqp.whatanime.CoolQApi
+1>  Class 3:	com.genteure.cqp.whatanime.Cooldown
+1>  Class 4:	com.genteure.cqp.whatanime.CoolQApi鳵ecordFormat
+1>  Class 5:	com.genteure.cqp.whatanime.CoolQApi鳨vent
+1>  Class 6:	com.genteure.cqp.whatanime.CoolQApi鳵equest
+1>  Class 7:	com.genteure.cqp.whatanime.CoolQApi鳯ogLevel
+1>  Class 8:	com.genteure.cqp.whatanime.CoolQApi鳸npack
+1>  Class 9:	com.genteure.cqp.whatanime.DataConvertExtensions
+1>  Class 10:	com.genteure.cqp.whatanime.CoolQApi鳪roupMemberInfo
+1>  Class 11:	com.genteure.cqp.whatanime.CoolQApi鳱ativeMethods
+1>  Class 12:	com.genteure.cqp.whatanime.ImageProcessor
+1>  Class 13:	com.genteure.cqp.whatanime.ImageProcessor?CQIMG2Base64Async>d__3
+1>  Class 14:	com.genteure.cqp.whatanime.ImageProcessor?WebImage2CQIMGAsync>d__4
+1>  Class 15:	com.genteure.cqp.whatanime.ImageProcessor?>c__DisplayClass5_0
+1>  Class 16:	com.genteure.cqp.whatanime.Main
+1>  Class 17:	com.genteure.cqp.whatanime.Main?_ProcessGroupMessageAsync>d__3
+1>  Class 18:	com.genteure.cqp.whatanime.WhatAnimeAPI
+1>  Class 19:	com.genteure.cqp.whatanime.WhatAnimeAPI?MeAsync>d__6
+1>  Class 20:	com.genteure.cqp.whatanime.WhatAnimeAPI?ListAsync>d__7
+1>  Class 21:	com.genteure.cqp.whatanime.WhatAnimeAPI?SearchAsync>d__8
+1>  Class 22:	com.genteure.cqp.whatanime.WhatAnimeAPI?ThumbnailAsync>d__9
+1>  Class 23:	com.genteure.cqp.whatanime.WhatAnimeAPI?ThumbnailAsync>d__10
+1>  Class 24:	com.genteure.cqp.whatanime.WhatAnimeAPI?RequestStringAsync>d__13
+1>  
+1>  Emitting fields and methods:
+1>  Global 	
+1>  Class 1	Fields: 1;	Methods: 8;	
+1>  Class 2	Fields: 1;	Methods: 44;	
+1>  Class 3	Fields: 4;	Methods: 8;	
+1>  Class 4	Fields: 8;	
+1>  Class 5	Fields: 3;	
+1>  Class 6	Fields: 5;	
+1>  Class 7	Fields: 9;	
+1>  Class 8	Fields: 2;	Methods: 10;	
+1>  Class 9	Methods: 4;	
+1>  Class 10	Fields: 15;	Methods: 31;	
+1>  Class 11	Methods: 28;	
+1>  Class 12	Fields: 3;	Methods: 4;	
+1>  Class 13	Fields: 11;	Methods: 3;	
+1>  Class 14	Fields: 9;	Methods: 3;	
+1>  Class 15	Fields: 1;	Methods: 2;	
+1>  Class 16	Fields: 2;	Methods: 4;	
+1>  Class 17	Fields: 26;	Methods: 3;	
+1>  Class 18	Fields: 2;	Methods: 10;	
+1>  Class 19	Fields: 4;	Methods: 3;	
+1>  Class 20	Fields: 4;	Methods: 3;	
+1>  Class 21	Fields: 8;	Methods: 3;	
+1>  Class 22	Fields: 5;	Methods: 3;	
+1>  Class 23	Fields: 9;	Methods: 3;	
+1>  Class 24	Fields: 10;	Methods: 3;	
+1>  Resolving local member refs: 638 -> 638 defs, 0 refs, 0 unresolved
+1>  
+1>  Emitting events and properties:
+1>  Global 	
+1>  Class 1	Props: 6;	
+1>  Class 2	
+1>  Class 3	Props: 3;	
+1>  Class 4	
+1>  Class 5	
+1>  Class 6	
+1>  Class 7	
+1>  Class 8	
+1>  Class 9	
+1>  Class 10	Props: 15;	
+1>  Class 11	
+1>  Class 12	
+1>  Class 13	
+1>  Class 14	
+1>  Class 15	
+1>  Class 16	
+1>  Class 17	
+1>  Class 18	Props: 2;	
+1>  Class 19	
+1>  Class 20	
+1>  Class 21	
+1>  Class 22	
+1>  Class 23	
+1>  Class 24	
+1>  Method Implementations (total): 18
+1>  Resolving local member refs: 0 -> 0 defs, 0 refs, 0 unresolved
+1>  Writing PE file
+1>  Operation completed successfully
+1>  
+1>Done executing task "DllExportAppDomainIsolatedTask".
+1>Done building target "DllExportMod" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CoreBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Build" depends on it):
+1>Done building target "CoreBuild" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "AfterBuild" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (target "Build" depends on it):
+1>Done building target "AfterBuild" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+1>Target "_CheckForInvalidConfigurationAndPlatform" skipped. Previously built successfully.
+1>Target "Build" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (entry point):
+1>Done building target "Build" in project "com.genteure.cqp.whatanime.csproj".
+1>Target "CleanupEmptyRefsFolder" in file "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\Managed.Web\Microsoft.Web.IISSupport.targets" from project "E:\Code\CSharp\CQP\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime\com.genteure.cqp.whatanime.csproj" (entry point):
+1>Task "RemoveDir" skipped, due to false condition; (@(_FilesInRefsFolder ->Count()) == 0) was evaluated as (5 == 0).
+1>Done building target "CleanupEmptyRefsFolder" in project "com.genteure.cqp.whatanime.csproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
