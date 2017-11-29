@@ -33,7 +33,7 @@ namespace com.genteure.cqp.whatanime
             var response = (HttpWebResponse)(await request.GetResponseAsync());
             MemoryStream result = new MemoryStream();
             var image = Image.FromStream(response.GetResponseStream());
-            if (image.Width < 300 || image.Height < 200) throw new ApplicationException("图片太小！");
+            if (image.Width < 300 || image.Height < 180) throw new ApplicationException("图片太小！");
             image.Save(result, GetEncoderInfo("image/jpeg"), new EncoderParameters()
             {
                 Param = new EncoderParameter[] { new EncoderParameter(Encoder.Quality, 50L) }

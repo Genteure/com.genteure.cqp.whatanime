@@ -95,6 +95,7 @@ namespace com.genteure.cqp.whatanime
                     catch (Exception ex)
                     {
                         reply = "发生了错误：" + ex.Message;
+                        CoolQApi.AddLog(CoolQApi.LogLevel.Debug, "番剧识别错误", ex.ToString());
                     }
             }
             else
