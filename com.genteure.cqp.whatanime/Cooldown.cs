@@ -83,10 +83,11 @@ namespace com.genteure.cqp.whatanime
         /// <summary>
         /// 设置单个人冷却
         /// </summary>
-        /// <param name="fromQQ"></param>
-        internal static void Set(long fromQQ)
+        /// <param name="fromQQ">冷却QQ号</param>
+        /// <param name="seconds">冷却时间</param>
+        internal static void Set(long fromQQ, int seconds = -1)
         {
-            cdlist[fromQQ] = DateTime.Now + TimeSpan.FromSeconds(Config.CDSeconds);
+            cdlist[fromQQ] = DateTime.Now + TimeSpan.FromSeconds(seconds == -1 ? Config.CDSeconds : seconds);
         }
 
         private static Dictionary<long, DateTime> cdlist = new Dictionary<long, DateTime>();

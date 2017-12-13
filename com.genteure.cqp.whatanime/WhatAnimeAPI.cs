@@ -10,7 +10,6 @@ namespace com.genteure.cqp.whatanime
     internal static class WhatAnimeAPI
     {
         private const int TIMEOUT = 30 * 1000;
-        private const string USERAGENT = "Mozilla/5.0 (compatible; com.genteure.cqp.whatanime/1.0.0; +https://github.com/Genteure/com.genteure.cqp.whatanime)";
 
         private static string ApiHost => Config.ApiHost;
         private static string ApiToken => Config.ApiToken;
@@ -98,7 +97,7 @@ namespace com.genteure.cqp.whatanime
             var request = WebRequest.CreateHttp(ApiHost + path);
 
             request.Timeout = TIMEOUT; // 30s
-            request.UserAgent = USERAGENT;
+            request.UserAgent = Config.USER_AGENT;
             request.Method = data == "" ? "GET" : "POST";
 
             if (data != "")

@@ -5,6 +5,8 @@ namespace com.genteure.cqp.whatanime
 {
     internal static class Config
     {
+        internal const string USER_AGENT = "Mozilla/5.0 (compatible; com.genteure.cqp.whatanime/1.0.0; +https://github.com/Genteure/com.genteure.cqp.whatanime)";
+
         private static JObject _raw = null;
 
 
@@ -44,5 +46,26 @@ namespace com.genteure.cqp.whatanime
         /// Cooldown Seconds
         /// </summary>
         internal static double CDSeconds => _raw?["CDSeconds"]?.ToObject<double>() ?? 2.5d * 60d; // 2.5 分钟
+
+        /// <summary>
+        /// Search Tip Message
+        /// </summary>
+        internal static string SearchTipMessage => _raw?["SearchTipMessage"]?.ToObject<string>() ?? string.Empty;
+
+        /// <summary>
+        /// R18 Search Result Message
+        /// </summary>
+        internal static string R18Message => _raw?["R18Message"]?.ToObject<string>() ?? string.Empty;
+
+        /// <summary>
+        /// :)
+        /// </summary>
+        internal static string FuckOffMessage => _raw?["FuckOffMessage"]?.ToObject<string>() ?? "嗯，是鬼父";
+
+        /// <summary>
+        /// :)
+        /// </summary>
+        internal static long FuckOffDuration => _raw?["FuckOffDuration"]?.ToObject<long>() ?? 60 * 15;
+
     }
 }

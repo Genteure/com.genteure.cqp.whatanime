@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Config.cs" />
     <Compile Include="Cooldown.cs" />
+    <Compile Include="GraphQL.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="CoolQApi.cs" />
     <Compile Include="CoolQApi.NativeMethods.cs" />

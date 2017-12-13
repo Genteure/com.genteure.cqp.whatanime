@@ -5,8 +5,8 @@
   "ret": 1, // 返回码，固定为1
   "apiver": 9, // Api版本，本SDK为9
   "name": "番剧识别", // 应用名称
-  "version": "1.0.1", // 应用版本
-  "version_id": 2, // 应用顺序版本（每次发布时至少+1）
+  "version": "1.1.0", // 应用版本
+  "version_id": 3, // 应用顺序版本（每次发布时至少+1）
   "author": "Genteure", // 应用作者
   "description": "番剧识别",
   "event": [ // 事件列表，同一事件类型可重复定义（发布前请删除无用事件）
@@ -17,14 +17,7 @@
       "function": "_eventGroupMsg",
       "priority": 30000
     },
-    {
-      "id": 6,
-      "type": 102,
-      "name": "成员退群时自动取消订阅",
-      "function": "_eventMemberQuit",
-      "priority": 10000
-    },
-    {
+      {
       "id": 1003,
       "type": 1003,
       "name": "应用已被启用",
@@ -49,7 +42,7 @@
     106, //发送私聊消息		sendPrivateMsg
     //110, //发送赞				sendLike
     //120, //置群员移除			setGroupKick
-    //121, //置群员禁言			setGroupBan
+    121, //置群员禁言			setGroupBan
     //122, //置群管理员			setGroupAdmin
     //123, //置全群禁言			setGroupWholeBan
     //124, //置匿名群员禁言		setGroupAnonymousBan
